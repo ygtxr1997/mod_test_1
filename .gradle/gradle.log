@@ -1,0 +1,96 @@
+This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.
+
+#################################################
+         ForgeGradle 2.3-SNAPSHOT-583d1ba        
+  https://github.com/MinecraftForge/ForgeGradle  
+#################################################
+               Powered by MCP unknown               
+             http://modcoderpack.com             
+         by: Searge, ProfMobius, Fesh0r,         
+         R4wk, ZeuX, IngisKahn, bspkrs           
+#################################################
+:deobfCompileDummyTask
+:deobfProvidedDummyTask
+:sourceApiJava UP-TO-DATE
+:compileApiJava UP-TO-DATE
+:processApiResources UP-TO-DATE
+:apiClasses UP-TO-DATE
+:sourceMainJava UP-TO-DATE
+:compileJava UP-TO-DATE
+:processResources UP-TO-DATE
+:classes UP-TO-DATE
+:jar UP-TO-DATE
+:getVersionJson
+:extractNatives SKIPPED
+:extractUserdev UP-TO-DATE
+:getAssetIndex UP-TO-DATE
+:getAssets
+Current status: 1242/1283   96%
+:makeStart
+:runServer
+2018-01-22 11:17:36,225 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+2018-01-22 11:17:36,228 main WARN Unable to instantiate org.fusesource.jansi.WindowsAnsiOutputStream
+[11:17:36] [main/INFO] [GradleStart]: Extra: []
+[11:17:36] [main/INFO] [GradleStart]: Running with arguments: [--tweakClass, net.minecraftforge.fml.common.launcher.FMLServerTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[11:17:36] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[11:17:36] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[11:17:36] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:17:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+2018-01-22 11:17:36,771 main WARN Disabling terminal, you're running in an unsupported environment.
+[11:17:36] [main/INFO] [FML]: Forge Mod Loader version 14.23.1.2555 for Minecraft 1.12.2 loading
+[11:17:36] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_161, running on Windows 7:amd64:6.1, installed at C:\Program Files\Java\jdk1.8.0_161\jre
+[11:17:36] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[11:17:36] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[11:17:36] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[11:17:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[11:17:36] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[11:17:36] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[11:17:36] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:17:36] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:17:36] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:17:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:17:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[11:17:36] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:17:37] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[11:17:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[11:17:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[11:17:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[11:17:37] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:17:37] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[11:17:37] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[11:17:41] [Server thread/INFO]: Starting minecraft server version 1.12.2
+[11:17:41] [Server thread/INFO] [FML]: MinecraftForge v14.23.1.2555 Initialized
+[11:17:41] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[11:17:41] [Server thread/INFO] [FML]: Replaced 1036 ore ingredients
+[11:17:41] [Server thread/INFO] [FML]: Found 0 mods from the command line. Injecting into mod discoverer
+[11:17:41] [Server thread/INFO] [FML]: Searching F:\MinecraftDev\mod_test_1\run\mods for mods
+[11:17:42] [Server thread/INFO] [FML]: Forge Mod Loader has identified 4 mods to load
+[11:17:42] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[11:17:42] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at CLIENT
+[11:17:42] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge] at SERVER
+[11:17:43] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[11:17:43] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[11:17:43] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[11:17:43] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[11:17:43] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[11:17:43] [Server thread/INFO] [FML]: Applying holder lookups
+[11:17:43] [Server thread/INFO] [FML]: Holder lookups applied
+[11:17:43] [Server thread/INFO] [FML]: Applying holder lookups
+[11:17:43] [Server thread/INFO] [FML]: Holder lookups applied
+[11:17:43] [Server thread/INFO] [FML]: Applying holder lookups
+[11:17:43] [Forge Version Check/INFO] [ForgeVersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[11:17:43] [Server thread/INFO] [FML]: Holder lookups applied
+[11:17:43] [Server thread/INFO] [FML]: Applying holder lookups
+[11:17:43] [Server thread/INFO] [FML]: Holder lookups applied
+[11:17:43] [Server thread/INFO] [FML]: Injecting itemstacks
+[11:17:43] [Server thread/INFO] [FML]: Itemstack injection complete
+[11:17:43] [Server thread/INFO]: Loading properties
+[11:17:43] [Server thread/INFO]: You need to agree to the EULA in order to run the server. Go to eula.txt for more info.
+[11:17:43] [Server thread/INFO]: Stopping server
+[11:17:43] [Server thread/INFO]: Saving worlds
+[11:17:43] [Server thread/WARN] [FML]: Can't revert to frozen GameData state without freezing first.
+[11:17:43] [Server thread/INFO] [FML]: The state engine was in incorrect state POSTINITIALIZATION and forced into state SERVER_STOPPED. Errors may have been discarded.
+
+BUILD SUCCESSFUL
+
+Total time: 19.243 secs

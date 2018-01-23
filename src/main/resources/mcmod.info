@@ -1,0 +1,20 @@
+[
+    {
+        "modid": "magicbeta",
+        "name": "Magic Beta",
+        "description": "Just a test for mod",
+        "authorList": ["gyh", "yg"],
+        "credits": "Thank you everyone!"
+        "version": "${version}",
+        "mcversion": "${mcversion}",
+        "logoFile": "assets/buildcraft/logo.png",
+        "url": "http://www.mod-buildcraft.com/",
+        "updateUrl": "",
+        "updateJSON": "",
+        "parent": "",
+        "screenshots": [],
+        "dependencies": [
+            "mod_MinecraftForge"
+        ]
+    }
+]
